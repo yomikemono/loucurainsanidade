@@ -1,0 +1,258 @@
+.img {
+    display: inline-block;
+    max-width: 100%;
+    -webkit-transition: all 1s ease;
+
+    /* Safari e Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -o-transition: all 1s ease;
+    /* IE 9 */
+    -ms-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+
+  }
+
+  .img:hover {
+    -webkit-transform: scale(1.25);
+    /* Safari e Chrome */
+    -moz-transform: scale(1.25);
+    /* Firefox */
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -o-transform: scale(1.25);
+    /* Opera */
+    transform: scale(1.25);
+  }
+
+.nav {
+  margin: 27px auto 0;
+  
+  position: relative;
+  width: 450px;
+  height: 50px;
+  background-color: #1F2021;
+  border-radius: 8px;
+  font-size: 0;
+  }
+  
+  .nav a{
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  }
+  
+  .nav.animation{
+  
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+  }
+  
+  a:nth-child(1) {
+  
+  width: 110px;
+  }
+  
+  a:nth-child(2) {
+  
+  width: 110px;
+  }
+  a:nth-child(3) {
+  
+  width: 110px; 
+  }
+  a:nth-child(4) {
+  
+  width: 110px;
+  }
+  a:nth-child(5) {
+  
+  width: 120px;
+  }
+  nav.start-inicio, a:nth-child(1):hover~.animation{
+  
+  width: 100px;
+  left: 0;
+  background-color: #1abc9c;
+  
+  }
+  
+  .nav.start-Geometridae, a:nth-child(2):hover~.animation{
+  
+  width: 110px;
+  left: 100px;
+  background-color: #1abc9c;
+  }
+  .nav.start-Notodontidae, a:nth-child(3):hover~.animation{
+  
+  width: 100px;
+  left: 210px;
+  background-color: #1abc9c;
+  
+  }
+
+  .nav.start-Erebidae, a:nth-child(4):hover~.animation{
+  width: 120px;
+  left: 330px;
+  background-color: #1abc9c;
+  }
+  
+  .body{
+  background-color: #0F0F0F;
+  font-size: 12px;
+  font-family: sans-serif;
+  }
+  
+  .span{
+  
+  color: #2BD6B4;}
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div1{
+  
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: #111112;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1px 0px 1px 20px;
+    display: inline-flex;
+    
+    }
+
+    .div3{
+
+        width: 688px;
+        height: 370px;
+        display: inline-flex;
+      }
+      .div33{
+        display: inline-flex;
+        width: 350px;
+        height: 370px;
+      }
+      .div4{
+        display: inline-flex;
+        width: 562px;
+        height: 370px;
+      }
+      .div5{
+        display: inline-flex;
+        width: 261px;
+        height: 370px;
+      }
+      .div6{
+        display: inline-flex;
+        width: 307.2px;
+        height: 370px;
+      }
+      .div7{
+        display: inline-flex;
+        width: 370.6px;
+        height: 370.6px;
+      }
+      .div8{
+        width: 658px;
+        height: 370px;
+        display: inline-flex;
+      }
+      .div9{
+        display: inline-flex;
+        width: 370px;
+        height: 370px;  
+      }
+      .div10{
+        display: inline-flex;
+        width: 630px;
+        height: 394px;
+      }
+      .div11{
+        width: 393px;
+        height: 393px;
+        display: inline-flex;
+      }
+      .div12{
+        display: inline-flex;
+        height: 370px;
+        width: 278px;
+      }
+      .div13{
+        display: inline-flex;
+        height: 393px;
+        width: 273px;
+      }
+      .div14{
+        display: inline-flex;
+        height: 393px;
+        width: 301px;
+      }
+      .div15{
+        display: inline-flex;
+        height: 370px;
+        width: 370px;
+      }
+      .div16{
+        display: inline-flex;
+        height: 370px;
+        width: 233px;
+      }
+      .div17{
+        display: inline-flex;
+        height: 370px;
+        width: 489px;
+      }
+      .div18{
+        display: inline-flex;
+        height: 370px;
+        width: 202px;
+      }
+      .final{
+        padding-top: 200px;
+        text-align: center;
+      }
+      .div19{
+        display: inline-flex;
+        height: 370px;
+        width: 619px;
+      }
+      .div20{
+        display: inline-flex;
+        height: 370px;
+        width: 185px;
+      }
+      .div21{
+        display: inline-flex;
+        height: 370px;
+        width: 185px;
+      }
